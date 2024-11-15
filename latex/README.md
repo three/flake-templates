@@ -8,3 +8,12 @@ You can also use `nix build .` and run those commands from the `result` folder.
 
 The flake *does not build your latex document* but provides *tooling for
 building your latex document*.
+
+## Usage
+
+```
+$ nix build .
+$ ./result/bin/document_build
+
+$ open document.pdf
+```
