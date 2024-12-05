@@ -3,5 +3,6 @@
 
   outputs = { self }: {
     templates.latex.path = ./latex;
+    templates.python.path = ./python;
   };
 }
